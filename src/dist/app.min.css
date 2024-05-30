@@ -1,0 +1,1 @@
+.w-75{min-width:285px;max-width:450px}@media(min-width: 568px)and (max-width: 992px){.w-75{width:350px !important}}@media(min-width: 576px)and (max-width: 992px){.calendar{max-width:650px}}@media(min-width: 992px)and (max-width: 1920px){.calendar{max-width:900px}}.w-100{width:100%}.w-75{width:75%}.w-50{width:50%}.w-25{width:25%}

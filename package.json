@@ -1,0 +1,52 @@
+{
+  "name": "dtshrhr",
+  "version": "0.0.1",
+  "description": "dtshr",
+  "productName": "dtshrhr",
+  "author": "wdf332 <wdf332@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development quasar dev",
+    "build": "cross-env NODE_ENV=production quasar build",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.8",
+    "@fullcalendar/daygrid": "^6.1.8",
+    "@fullcalendar/interaction": "^6.1.8",
+    "@fullcalendar/vue3": "^6.1.8",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^1.2.1",
+    "cross-env": "^7.0.3",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "luxon": "^3.3.0",
+    "pinia": "^2.0.11",
+    "pinia-plugin-persistedstate": "^3.1.0",
+    "quasar": "^2.6.0",
+    "run-with-node-env": "^1.0.1",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.3.1",
+    "@quasar/app-vite": "^1.0.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": "^20 ||^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

@@ -1,0 +1,8 @@
+.w-75 {
+  min-width: 285px;
+  max-width: 450px;
+
+  @media (min-width: 568px) and (max-width: 992px) {
+    width: 350px !important;
+  }
+}

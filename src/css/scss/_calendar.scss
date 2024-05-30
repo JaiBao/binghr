@@ -1,0 +1,8 @@
+.calendar {
+  @media (min-width: 576px) and (max-width: 992px) {
+    max-width: 650px;
+  }
+  @media (min-width: 992px) and (max-width: 1920px) {
+    max-width: 900px;
+  }
+}
